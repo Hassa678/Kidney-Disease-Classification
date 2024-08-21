@@ -139,7 +139,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 003270868633.dkr.ecr.eu-north-1.amazonaws.com/kidney 
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -175,7 +175,7 @@ DVC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  003270868633.dkr.ecr.eu-north-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
 

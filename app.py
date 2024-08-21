@@ -66,4 +66,5 @@ def upload():
 
 
 if __name__ == '__main__':
+    #for aws
     app.run(port=5001)
