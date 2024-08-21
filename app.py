@@ -33,7 +33,7 @@ app = Flask(__name__)
 #app = application
 
 # Model saved with Keras model.save()
-MODEL_PATH ='artifacts/training/model.h5'
+MODEL_PATH ='model/model.h5'
 
 # Load your trained model
 model = tf.keras.models.load_model(MODEL_PATH)
