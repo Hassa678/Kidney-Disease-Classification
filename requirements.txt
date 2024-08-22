@@ -12,6 +12,7 @@ tqdm
 ensure==1.0.2
 joblib
 types-PyYAML
+urllib3<2.0
 scipy
 Flask
 Flask-Cors
