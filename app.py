@@ -28,9 +28,9 @@ from werkzeug.utils import secure_filename
 #from gevent.pywsgi import WSGIServer
 
 # Define a flask app
-application = Flask(__name__)
+app = Flask(__name__)
 
-app = application
+
 
 # Model saved with Keras model.save()
 MODEL_PATH ='model/model.h5'
@@ -69,5 +69,5 @@ if __name__ == '__main__':
     #
     #for aws
     app.run(host='0.0.0.0', port=8080)
-
+#ff
  
